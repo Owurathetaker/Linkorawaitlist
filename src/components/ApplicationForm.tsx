@@ -46,9 +46,13 @@ export default function ApplicationForm() {
           setMsg(null);
 
           try {
-            if (!selfieFile) throw new Error("Please upload a clear selfie.");
+           if (!selfieFile) throw new Error("Please upload a clear selfie.");
 
-            const safeName = selfieFile.name.replace(/\s+/g, "_");
+if (selfieFile.size > 5 * 1024 * 1024) {
+  throw new Error("Image must be smaller than 5MB.");
+}
+
+const safeName = selfieFile.name.replace(/\s+/g, "_");
             const path = `selfies/public/${Date.now()}_${safeName}`;
 
             const { error: uploadErr } = await supabase.storage
