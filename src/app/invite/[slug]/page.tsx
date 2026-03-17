@@ -33,15 +33,15 @@ export default async function InvitePage({ params }: Props) {
       <div className="mx-auto max-w-3xl px-6 py-16">
         <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
           <div className="text-xs font-medium uppercase tracking-[0.2em] text-slate-500">
-            Linkora
+            Gildra
           </div>
 
           <h1 className="mt-4 text-3xl font-semibold tracking-tight md:text-4xl">
-            You’ve been invited to Linkora
+            You’ve been invited to Gildra
           </h1>
 
           <p className="mt-4 text-base leading-7 text-slate-600">
-            {firstName} has invited you to join Linkora — a more thoughtful dating
+            {firstName} has invited you to join Gildra — a more thoughtful dating
             experience built around quality connections and intentional matching.
           </p>
 
@@ -61,7 +61,7 @@ export default async function InvitePage({ params }: Props) {
               href="/"
               className="inline-flex rounded-xl bg-slate-900 px-5 py-3 text-sm font-medium text-white transition hover:opacity-90"
             >
-              Return to Linkora
+              Return to Gildra
             </a>
           </div>
         </div>

@@ -4,7 +4,7 @@ export default function NotFoundPage() {
       <div className="mx-auto max-w-2xl px-6 py-16">
         <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
           <div className="text-xs font-medium uppercase tracking-[0.2em] text-slate-500">
-            Linkora
+            Gildra
           </div>
  
           <h1 className="mt-4 text-3xl font-semibold tracking-tight">
@@ -19,7 +19,7 @@ export default function NotFoundPage() {
             href="/"
             className="mt-8 inline-flex rounded-xl bg-slate-900 px-5 py-3 text-sm font-medium text-white transition hover:opacity-90"
           >
-            Return to Linkora
+            Return to Gildra
           </a>
         </div>
       </div>

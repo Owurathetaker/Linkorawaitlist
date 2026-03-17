@@ -23,7 +23,7 @@ export async function POST(request: Request) {
     } = body ?? {};
  
     const message = [
-      "New Linkora Application",
+      "New Gildra Application",
       "",
       `Name: ${fullName ?? "-"}`,
       `Age: ${age ?? "-"}`,

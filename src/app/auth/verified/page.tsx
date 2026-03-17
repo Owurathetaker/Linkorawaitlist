@@ -4,7 +4,7 @@ export default function VerifiedPage() {
       <div className="mx-auto max-w-2xl px-6 py-16">
         <div className="rounded-2xl border border-slate-200 p-8">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-slate-500">
-            Linkora
+            Gildra
           </p>
  
           <h1 className="mt-4 text-3xl font-semibold tracking-tight">
@@ -12,7 +12,7 @@ export default function VerifiedPage() {
           </h1>
  
           <p className="mt-4 text-slate-600">
-            Your account has been confirmed. Return to Linkora and sign in to
+            Your account has been confirmed. Return to Gildra and sign in to
             continue your application.
           </p>
  
@@ -20,7 +20,7 @@ export default function VerifiedPage() {
             href="/"
             className="mt-8 inline-flex rounded-lg bg-slate-900 px-4 py-2 text-white"
           >
-            Return to Linkora
+            Return to Gildra
           </a>
         </div>
       </div>

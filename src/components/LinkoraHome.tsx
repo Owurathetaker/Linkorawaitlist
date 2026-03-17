@@ -10,10 +10,10 @@ export default function LinkoraHome() {
           <div className="flex items-center justify-between">
             <div>
               <div className="text-xs font-medium uppercase tracking-[0.2em] text-slate-500">
-                Linkora
+                Gildra
               </div>
               <div className="mt-1 text-sm text-slate-500">
-                Founding Women Circle
+                Founding Circle
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@ export default function LinkoraHome() {
               </h1>
  
               <p className="mt-5 max-w-2xl text-base leading-7 text-slate-600 md:text-lg">
-                Linkora is building a cleaner, more thoughtful dating experience
+                Gildra is building a cleaner, more thoughtful dating experience
                 for young professionals and ambitious individuals who value
                 quality over noise.
               </p>
@@ -81,7 +81,7 @@ export default function LinkoraHome() {
 
 <footer className="mt-16 border-t border-slate-200 pt-6 text-sm text-slate-500">
   <div className="flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
-    <p>Linkora — Early Access Program</p>
+    <p>Gildra — Early Access</p>
     <p>Accra • Ghana</p>
   </div>
 </footer>

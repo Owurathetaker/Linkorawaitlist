@@ -57,7 +57,7 @@ export default function Dashboard({
             </div>
  
             <p className="mt-3 text-sm text-slate-600">
-              Invite quality members into Linkora. Earnings activate at launch.
+              Invite quality members into Gildra. Earnings activate at launch.
             </p>
           </div>
         ) : null}

@@ -24,7 +24,7 @@ export default async function AuthErrorPage({ searchParams }: Props) {
       <div className="mx-auto max-w-2xl px-6 py-16">
         <div className="rounded-2xl border border-slate-200 p-8">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-slate-500">
-            Linkora
+            Gildra
           </p>
  
           <h1 className="mt-4 text-3xl font-semibold tracking-tight">
@@ -37,7 +37,7 @@ export default async function AuthErrorPage({ searchParams }: Props) {
             href="/"
             className="mt-8 inline-flex rounded-lg bg-slate-900 px-4 py-2 text-white"
           >
-            Return to Linkora
+            Return to Gildra
           </a>
         </div>
       </div>
